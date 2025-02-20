@@ -1,0 +1,103 @@
+body{
+    background-color: rgb(15, 228, 228);
+    /* background-image: linear-gradient(25deg, #1d475a, #674a68, #a24576, #db2f84) */
+}
+#main{
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    padding: 12px;
+    padding-left: 30px;
+    margin: 0 auto;
+    margin-top: 160px;
+    box-shadow: 1px 1px 10px black;
+    opacity: 0.7;
+    transition: 1s;
+    position: relative;
+}
+#main:hover{
+    opacity: 1;
+}
+#psw{
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+input{
+    height: 30px;
+    width:90%;
+    padding-left: 14px;
+    font-size: 15px;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(17, 183, 183);
+    font-weight: 900;
+}
+.forget_pwd a{
+    text-decoration: none;
+    font-size: 12px;
+    position: absolute;
+    bottom: 130px;
+    right: 35px;
+    color: rgb(17, 183, 183);
+    font-weight: 600;
+}
+.forget_pwd a:hover{
+    color: blue;
+    transition: 1s;
+}
+.sign_up a{
+    text-decoration: none;
+    font-size: 14px;
+    position: absolute;
+    bottom: 30px;;
+    left: 47%;
+    font-weight: 800;
+    opacity: 0.6;
+}
+.sign_up a:hover{
+    opacity: 1;
+    transition: 1s;
+}
+@media (max-width: 600px) {
+    #main{
+        height: 330px;
+        width: 250px;
+        padding-right: 20px;
+    }
+    .forget_pwd a{
+        text-decoration: none;
+        font-size: 12px;
+        position: absolute;
+        bottom: 40px;
+    }
+    .sign_up a{
+        text-decoration: none;
+        font-size: 12px;
+        position: absolute;
+        bottom: 40px;
+        left: 40px;
+        color: rgb(17, 183, 183);
+        opacity: 1;
+    }
+    .main_con{
+        display: none;
+    }
+    #main h2{
+        text-align: center;  
+    }
+}
+button{
+    width: 95%;
+    height: 38px;
+    color: white;
+    background-color: rgb(26, 200, 200);
+    border: 0px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+}
+button:hover{
+    box-shadow: 0px 2px 6px black;
+}
